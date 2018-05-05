@@ -1,0 +1,446 @@
+<!--
+colors:
+dark-blue: #002B5B
+orange: #CD6701
+gray: #909090
+-->
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+    <title>Mi Busca!</title>
+    <style type="text/css">
+      * {
+        font-family: 'Arial';
+      }
+      .text-white {
+        color: white;
+        padding-right: 10px;
+      }
+      .rouded {
+        border-radius: 13px;
+      }
+      .bt-login {
+        /*width: 65px;*/
+        /*height: 35px;*/
+        background-color: #CD6701;
+        border-color: #CD6701;
+        color: white;
+      }
+      .form-group {
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+      .content-image {
+        border: 3px solid #CD6701;
+        border-radius: 13px;
+        margin: auto;
+        max-width: 450px;
+      }
+      .title {
+        margin-top: 10px;
+        color: #CD6702;
+        font-weight: bold;
+        font-size: 1.5em
+      }
+      .side-content {
+        padding-top: 25px;
+      }
+      h2 {
+        text-align: center;
+        color: #909090;
+        margin-bottom: 25px;
+      }
+      .person {
+        display: block;
+        text-align: center;
+      }
+      .person-name {
+        display: block;
+        color: #002B5B;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+      .person-picture {
+        border: 3px solid #002B5B;
+        border-radius: 100%;
+      }
+      .person-city {
+        color: #CD6701;
+      }
+      section.container, article.container {
+        padding-bottom: 25px;
+      }
+      .input-group-addon {
+        border-top-left-radius: 13px;
+        border-bottom-left-radius: 13px;
+        background-color: #FFF;
+      }
+      .input-group .form-control:last-child {
+        background-color: #FFF;
+        border-left: 0;
+      }
+      .fa-plane{
+        transform: rotate(-45deg);
+      }
+      .text-right {
+        text-align: right;
+      }
+      header.container-fluid {
+        background-color: #002B5B;
+        border: 0;
+        border-radius: 0;
+      }
+      .logo-top {
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+      .logo-top-container {
+        position: relative;
+        margin-top: -59px;
+        background-image: url("assets/images/background.png");
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        background-size: cover;
+        height: 97px;
+        width: 410px;
+      }
+      .main-menu-container {
+        background-color: #FFF;
+        border-bottom: 3px solid #CD6701;
+        height: 59px;
+        overflow: hidden;
+        overflow-x: scroll;
+      }
+      .main-menu {
+        float: right;
+        list-style:none;
+        margin-bottom: 0;
+      }
+      ul.main-menu li {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 20px;
+        color: #002B5B;
+      }
+      ul.main-menu li:first-child {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      footer {
+        color: #909090;
+      }
+      footer hr {
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: #CD6701;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .footer-menu {
+        list-style:none;
+      }
+      .footer-menu li {
+        margin-bottom: 5px;
+      }
+      .footer-menu a {
+        list-style:none;
+        color: #686868;
+      }
+      .card-container {
+        display: inline-block;
+        padding: 10px;
+        /*padding-left: 10px;*/
+        /*padding-right: 10px;*/
+        background-color: #FFF;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .card-container img {
+        width: 48px;
+        /*height: 33.7px;*/
+        /*margin: auto;*/
+      }
+      @media only screen and (max-width: 749px) {
+        .text-right {
+          text-align: left;
+        }
+        .logo-top-container {
+          position: relative;
+          margin-top: -59;
+          margin-left: 10px;
+          background-image: none;
+          height: 59px;
+          width: 90px;
+        }
+        .logo-top {
+          left: 5px;
+          height: 20px;
+          right: auto;
+        }
+        ul.main-menu li {
+          margin-left: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="container-fluid navbar navbar-default" style="margin-bottom: 0;">
+        <div class="container">
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <label class="text-white">Acesse a plataforma</label>
+              <input type="text" class="form-control rouded" placeholder="Login">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control rouded" placeholder="Senha">
+            </div>
+            <button type="submit" class="btn btn-default rouded bt-login">
+              Entrar <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </header>
+      <section>
+        <nav class="container-fluid main-menu-container">
+          <div class="container">
+            <ul class="main-menu">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Quem Somos</a></li>
+              <li><a href="#">Cadastrar - se</a></li>
+            </ul>
+          </div>
+        </nav>
+        <figure class="logo-top-container">
+          <img class="logo-top" src="assets/images/logo.png">
+        </figure>
+      </section>
+      <section style="margin-top: -38px;">
+        <figure>
+          <img src="./assets/images/banner.png" width="100%" />
+        </figure>
+      </section>
+      <section style="background-color: #DADADA">
+        <article class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>
+                <i class="fas fa-plane"></i>
+                Como Funciona?
+              </h2>
+            </div>
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-4 col-md-3">
+                  <figure class="content-image">
+                    <img src="./assets/images/hand.png" width="100%" />
+                  </figure>
+                </div>
+                <div class="side-content col-sm-8 col-md-9">
+                  <span class="title">Passo a Passo 1</span>
+                  <p>
+                    Ao receber o bilhete você deverá conferir todos os dados da emissão.
+                    Caso haja algum erro com relação aos dados informados a Central Mibusca garante a correção sem nenhum custo adicional.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-4 col-md-3 col-sm-push-8 col-md-push-9">
+                  <figure class="content-image">
+                    <img src="./assets/images/hand.png" width="100%" />
+                  </figure>
+                </div>
+                <div class="side-content text-right col-sm-8 col-md-9 col-sm-pull-4 col-md-pull-3">
+                  <span class="title">Passo a Passo 2</span>
+                  <p>
+                    Ao receber o bilhete você deverá conferir todos os dados da emissão.
+                    Caso haja algum erro com relação aos dados informados a Central Mibusca
+                    garante a correção sem nenhum custo adicional.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-4 col-md-3">
+                  <figure class="content-image">
+                    <img src="./assets/images/hand.png" width="100%" />
+                  </figure>
+                </div>
+                <div class="side-content col-sm-8 col-md-9">
+                  <span class="title">Passo a Passo 3</span>
+                  <p>
+                    Ao receber o bilhete você deverá conferir todos os dados da emissão.
+                    Caso haja algum erro com relação aos dados informados a Central Mibusca
+                    garante a correção sem nenhum custo adicional.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="container">
+        <article class="row">
+          <div class="col-sm-12">
+            <h2>
+              <i class="fas fa-plane"></i>
+              Depoimentos
+            </h2>
+          </div>
+          <div class="col-sm-4">
+            <figure class="person">
+              <img src="assets/images/man.png" class="person-picture">
+              <span class="person-name">José Almeida</span>
+              <span class="person-city">Imperatriz</span>
+              <p>
+                “A Mibusca é uma empresa que passa segurança,
+                pois além de ter um serviço muito útil, possui
+                profissionais excelentes e atendimento eficiente.
+                Tenho certeza que a partir de agora vou fazer sempre
+                a melhor escolha nas viagens que preciso fazer.”
+              </p>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="person">
+              <img src="assets/images/woman.png" class="person-picture">
+              <span class="person-name">José Almeida</span>
+              <span class="person-city">Imperatriz</span>
+              <p>
+                “A Mibusca é uma empresa que passa segurança,
+                pois além de ter um serviço muito útil, possui
+                profissionais excelentes e atendimento eficiente.
+                Tenho certeza que a partir de agora vou fazer sempre
+                a melhor escolha nas viagens que preciso fazer.”
+              </p>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="person">
+              <img src="assets/images/man.png" class="person-picture">
+              <span class="person-name">José Almeida</span>
+              <span class="person-city">Imperatriz</span>
+              <p>
+                “A Mibusca é uma empresa que passa segurança,
+                pois além de ter um serviço muito útil, possui
+                profissionais excelentes e atendimento eficiente.
+                Tenho certeza que a partir de agora vou fazer sempre
+                a melhor escolha nas viagens que preciso fazer.”
+              </p>
+            </figure>
+          </div>
+        </article>
+      </section>
+      <section style="background-color: #002B5B">
+        <article class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 style="color: white">
+                <i class="fas fa-plane"></i>
+                Informe seu e-mail e receba novidades
+              </h2>
+            </div>
+            <div class="col-sm-12" style="text-align: center">
+              <form class="form-inline" role="form">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <input type="text" class="form-control rouded" placeholder="Nome" size="35">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <input type="email" class="form-control rouded" placeholder="E-mail" size="35">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-default rouded bt-login">Começar a Receber</button>
+              </form>
+            </div>
+          </div>
+        </article>
+      </section>
+      <footer style="background-color: #DADADA; padding-top: 10px">
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <img src="assets/images/logo.png" width="136" height="32" style="padding-left: 5px;background-color: #DADADA">
+            </div>
+          </div>
+          <div class="row" style="margin-top: 10px">
+            <div class="col-xs-6 col-md-3">
+              <p>
+                ATENDIMENTO: 0300 313 5568 <br>
+                MIBUSCA VIAGENS E TURISMO <br>
+                CNJP: 99.999.999/0001-99
+              </p>
+              <img src="assets/images/facebook.png" width="40" height="40">
+              <img src="assets/images/instagram.png" width="40" height="40">
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <ul class="footer-menu">
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Cadastra - se</a></li>
+                <li><a href="#">Politica de Privacidade</a></li>
+                <li><a href="#">Termos e Condições</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <p>Pagamento</p>
+              <figure class="card-container">
+                <img src="assets/images/visa.png">
+              </figure>
+              <figure class="card-container">
+                <img src="assets/images/mastercard.png">
+              </figure>
+              <figure class="card-container">
+                <img src="assets/images/elo.png">
+              </figure>
+              <figure class="card-container">
+                <img src="assets/images/diners.png">
+              </figure>
+              <figure class="card-container">
+                <img src="assets/images/american.png">
+              </figure>
+              <figure class="card-container">
+                <img src="assets/images/hiper.png">
+              </figure>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <p>Certificados</p>
+              <figure class="card-container">
+                <img src="assets/images/blindado.png">
+              </figure>
+              <figure class="card-container">
+                <img src="assets/images/mcafee.png">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
