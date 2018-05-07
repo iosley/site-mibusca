@@ -1,0 +1,30 @@
+{
+  "name": "site-mibusca",
+  "version": "0.1.0",
+  "description": "Website",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iosley/site-mibusca.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Iosley Carlos Sivla <iosley@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iosley/site-mibusca/issues"
+  },
+  "homepage": "https://github.com/iosley/site-mibusca#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.8.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
