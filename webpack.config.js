@@ -86,6 +86,12 @@ module.exports = {
               publicPath: './assets/images/',
             },
           },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true,
+            },
+          },
         ]
       },
       {
@@ -98,16 +104,16 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      template: 'index.html'
+      template: 'index.html',
+      minify: true,
     }),
     new ScriptExtHtmlWebpackPlugin({
       title: description,
       defaultAttribute: 'defer',
-      minify: true,
     }),
     new FaviconsWebpackPlugin({
       logo: './assets/images/favicon.png',
-      prefix: 'icons-[hash]/',
+      prefix: 'assets/images/icons-[hash]/',
       emitStats: true,
       statsFilename: 'iconstats-[hash].json',
       persistentCache: true,
