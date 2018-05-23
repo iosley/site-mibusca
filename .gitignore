@@ -1,3 +1,6 @@
+# Github Hexo deploy
+.deploy_git/
+public/
 
 # Created by https://www.gitignore.io/api/macos,windows,sublimetext,hexo,node,sass,cloud9,grunt,visualstudiocode,intellij,intellij+all,phpstorm,webstorm+all
 
