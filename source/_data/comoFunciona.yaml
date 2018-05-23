@@ -1,0 +1,20 @@
+- title: Passo a Passo 1
+  image:
+    src: images/hand.png
+    alt: Foto item 1
+  content: Ao receber o bilhete você deverá conferir todos os dados da emissão.
+    Caso haja algum erro com relação aos dados informados a Central Mibusca garante a correção sem nenhum custo adicional.
+
+- title: Passo a Passo 2
+  image:
+    src: images/hand.png
+    alt: Foto item 2
+  content: Ao receber o bilhete você deverá conferir todos os dados da emissão.
+    Caso haja algum erro com relação aos dados informados a Central Mibusca garante a correção sem nenhum custo adicional.
+
+- title: Passo a Passo 3
+  image:
+    src: images/hand.png
+    alt: Foto item 3
+  content: Ao receber o bilhete você deverá conferir todos os dados da emissão.
+    Caso haja algum erro com relação aos dados informados a Central Mibusca garante a correção sem nenhum custo adicional.

@@ -1,0 +1,43 @@
+- name: José Almeida
+  city: Imperatriz
+  image:
+    src: images/man.png
+    alt: Foto José Almeida
+  content: A Mibusca é uma empresa que passa segurança,
+    pois além de ter um serviço muito útil, possui
+    profissionais excelentes e atendimento eficiente.
+    Tenho certeza que a partir de agora vou fazer sempre
+    a melhor escolha nas viagens que preciso fazer.
+
+- name: Maria de Sousa
+  city: Imperatriz
+  image:
+    src: images/woman.png
+    alt: Foto Maria de Sousa
+  content: A Mibusca é uma empresa que passa segurança,
+    pois além de ter um serviço muito útil, possui
+    profissionais excelentes e atendimento eficiente.
+    Tenho certeza que a partir de agora vou fazer sempre
+    a melhor escolha nas viagens que preciso fazer.
+
+- name: José Almeida
+  city: Imperatriz
+  image:
+    src: images/man.png
+    alt: Foto José Almeida
+  content: A Mibusca é uma empresa que passa segurança,
+    pois além de ter um serviço muito útil, possui
+    profissionais excelentes e atendimento eficiente.
+    Tenho certeza que a partir de agora vou fazer sempre
+    a melhor escolha nas viagens que preciso fazer.
+
+- name: Maria de Sousa
+  city: Imperatriz
+  image:
+    src: images/woman.png
+    alt: Foto Maria de Sousa
+  content: A Mibusca é uma empresa que passa segurança,
+    pois além de ter um serviço muito útil, possui
+    profissionais excelentes e atendimento eficiente.
+    Tenho certeza que a partir de agora vou fazer sempre
+    a melhor escolha nas viagens que preciso fazer.

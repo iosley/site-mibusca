@@ -1,0 +1,31 @@
+post_asset_folder: true
+
+node_sass:
+  outputStyle: compressed
+  precision: 5
+  sourceComments: false
+  sourceMap: false
+
+# Responsive Images
+## Docs: https://github.com/hexojs/hexo-filter-responsive-images
+responsive_images:
+  - patten: \*.png
+    sizes:
+      square:
+        width: 200
+        height: 200
+
+
+# Minifier
+## Docs: https://github.com/chenzhutian/hexo-all-minifier
+all_minifier: true
+image_minifier:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 1
+  pngquant: false
+  progressive: false
+  silent: false
+  exclude:
+    - svg
