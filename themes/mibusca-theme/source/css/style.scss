@@ -2,6 +2,13 @@
 @import './_responsive_typography';
 @import './_colors';
 
+.initial-hidden {
+  display: initial;
+}
+
+.loading {
+  display: none !important;
+}
 
 .registerForm {
   input::placeholder {

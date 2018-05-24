@@ -64,3 +64,35 @@ layout: main
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+  document.addEventListener('load', function() {
+    $('#testimonialsCarousel').on('slide.bs.carousel', function (e) {
+      /*
+      CC 2.0 License Iatek LLC 2018
+      Attribution required
+      */
+      var $e = $(e.relatedTarget);
+      var idx = $e.index();
+      var itemsPerSlide = 3;
+      var totalItems = $('#testimonialsCarousel .carousel-item').length;
+
+      if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+          // append slides to end
+          if (e.direction=="left") {
+            $('#testimonialsCarousel .carousel-item')
+              .eq(i)
+              .appendTo('#testimonialsCarousel .carousel-inner');
+          }
+          else {
+            $('#testimonialsCarousel .carousel-item')
+              .eq(0)
+              .appendTo('#testimonialsCarousel .carousel-inner');
+          }
+        }
+      }
+    });
+  });
+</script>
