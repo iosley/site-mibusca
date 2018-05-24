@@ -10,33 +10,33 @@
         }) }}
       </div>
     </div>
-    <div class="row mt-3">
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="col-12">
+    <div class="row my-3">
+      <div class="col-12 col-lg-5">
+        <div class="col-12 text-center text-lg-left">
           <p>
             ATENDIMENTO: 0300 313 5568 <br>
             MIBUSCA VIAGENS E TURISMO <br>
             CNJP: 99.999.999/0001-99
           </p>
         </div>
-        <div class="col-12 d-flex flex-row">
-          <div class="mx-2 p-3 text-white bg-primary rounded-circle" style="padding-left: 1.1rem !important; padding-right: 1.1rem !important;">
+        <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-start">
+          <a href="#" class="mx-2 p-2 text-white bg-primary rounded-circle" style="padding-left: 0.65rem !important; padding-right: 0.65rem !important;">
             <i class="fab fa-instagram fa-lg"></i>
-          </div>
-          <div class="mx-2 p-3 text-white bg-primary rounded-circle" style="padding-left: 1.3rem !important; padding-right: 1.3rem !important;">
+          </a>
+          <a href="#" class="mx-2 p-2 text-white bg-primary rounded-circle" style="padding-left: .85rem !important; padding-right: .85rem !important;">
             <i class="fab fa-facebook-f fa-lg"></i>
-          </div>
+          </a>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3">
+      {# <div class="col-12 col-sm-6 col-lg-3">
         <ul class="footer-menu">
           <li><a href="#">Quem somos</a></li>
           <li><a href="#">Cadastra - se</a></li>
           <li><a href="#">Politica de Privacidade</a></li>
           <li><a href="#">Termos e Condições</a></li>
         </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-3">
+      </div> #}
+      <div class="col-12 col-sm-6 col-lg-4">
         <p>Pagamento</p>
         <div class="row no-gutters">
           <div class="col">
@@ -49,7 +49,7 @@
             {{ image_tag('images/cards/Elo.png', {alt: 'Elo'}) }}
           </div>
         </div>
-        <div class="row no-gutters">
+        <div class="row no-gutters my-1">
           <div class="col">
             {{ image_tag('images/cards/Diners.png', {alt: 'Diners'}) }}
           </div>
