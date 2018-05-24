@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: default
 ---
 {% include './_partial/_header.swig' %}
 {% include './_partial/_topMenu.swig' %}

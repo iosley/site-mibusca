@@ -55,3 +55,7 @@ browsersync:
   logLevel: "warn"
   ghostMode:
     scroll: true
+
+inline_assets:
+  enabled: true
+  limit: 100000

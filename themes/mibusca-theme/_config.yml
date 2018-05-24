@@ -6,6 +6,10 @@ node_sass:
   sourceComments: false
   sourceMap: false
 
+inline_assets:
+  enabled: true
+  limit: 100000
+
 # Responsive Images
 ## Docs: https://github.com/hexojs/hexo-filter-responsive-images
 responsive_images:
@@ -15,17 +19,6 @@ responsive_images:
         width: 200
         height: 200
 
-
 # Minifier
 ## Docs: https://github.com/chenzhutian/hexo-all-minifier
 all_minifier: true
-image_minifier:
-  enable: false
-  interlaced: false
-  multipass: false
-  optimizationLevel: 1
-  pngquant: false
-  progressive: false
-  silent: false
-  exclude:
-    - svg
