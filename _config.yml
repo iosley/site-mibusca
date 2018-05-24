@@ -44,8 +44,11 @@ theme: mibusca-theme
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:iosley/site-mibusca.git
+  - type: git
+    repo: git@github.com:iosley/site-mibusca.git
+  - type: netlify
+    token: 06200f5d5fe7439e66610f259f2fc5fb0f7c03b717c9457156bc712c23f51f4c
+    site_id: 3aebad87-11e3-46dd-be78-098043b653b8
 
 # Browsersync
 browsersync:
