@@ -91,18 +91,18 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm">
+      <div class="col-12">
         <div class="form-group">
           <label for="emailInput">Email</label>
           <input type="email" class="form-control" id="emailInput" placeholder="meuemail@provedor.com">
         </div>
       </div>
-      <div class="col-sm">
+      {# <div class="col-sm">
         <div class="form-group">
           <label for="confirmEmailInput">Confirme seu Email</label>
           <input type="email" class="form-control" id="confirmEmailInput" placeholder="meuemail@provedor.com">
         </div>
-      </div>
+      </div> #}
     </div>
   </div>
   <div class="card-footer text-right">
