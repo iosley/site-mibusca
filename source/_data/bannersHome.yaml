@@ -1,0 +1,14 @@
+- image:
+    src: images/banner01.jpg
+    alt: Banner 01
+  content:
+
+- image:
+    src: images/banner02.jpg
+    alt: Banner 02
+  content:
+
+- image:
+    src: images/banner03.jpg
+    alt: Banner 03
+  content:
