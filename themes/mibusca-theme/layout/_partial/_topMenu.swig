@@ -1,6 +1,6 @@
 <section class="menu-section">
   <nav class="container-fluid">
-    <div class="container h-100 pt-0">
+    <div class="container h-100 p-0">
       <ul class="nav justify-content-end h-100 align-items-center flex-nowrap">
         <li class="nav-item {{ page.path === 'index.html' && 'active' }}">
           <a class="nav-link px-1 px-sm-2" href="/">Início</a>

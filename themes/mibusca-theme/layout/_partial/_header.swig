@@ -16,7 +16,8 @@
             </div>
             <div class="form-group mb-0 align-self-center my-2 my-sm-0">
               <button type="submit" class="btn btn-secondary rouded">
-                Entrar <i class="fas fa-arrow-right"></i>
+                Entrar
+                {# <i class="fas fa-arrow-right"></i> #}
               </button>
             </div>
         </form>

@@ -167,8 +167,8 @@ header.container-fluid {
   nav {
     background-color: $white;
     height: 59px;
-    overflow: hidden;
-    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow-x: auto;
     border-bottom: 3px solid $orange;
 
     .nav-item {
