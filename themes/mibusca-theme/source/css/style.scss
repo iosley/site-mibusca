@@ -74,7 +74,7 @@
   border: 3px solid $orange;
   border-radius: 13px;
   margin: auto;
-  max-width: 450px;
+  max-width: 60%
 }
 
 .title {
@@ -246,6 +246,7 @@ footer {
     width: 100px;
     z-index: 2;
   }
+
   .logo-top {
     left: 0px;
     height: 15px;
@@ -253,6 +254,7 @@ footer {
     top: 0;
     bottom: 0;
   }
+
   ul.main-menu {
     li {
       margin-left: 10px;
@@ -265,6 +267,9 @@ footer {
     text-align: right;
   }
 
+  .content-image {
+    max-width: 450px;
+  }
 }
 
 @include media-breakpoint-up(md) {
