@@ -9,6 +9,9 @@
 <body>
   <main>
     <section>
+      <div style="padding-bottom: 20px;">
+        {{ image_tag('/images/logo.png', { alt: 'Logo', class: 'logo'}) }}
+      </div>
       <header class="figures">
         {# {{ image_tag('images/boneco.png', {alt: 'Cartoom Garoto', width: 228, height: 225}) }} #}
         {{ image_tag('images/boneco.png', {alt: 'Cartoom Garoto', style: 'max-width: 25%'}) }}

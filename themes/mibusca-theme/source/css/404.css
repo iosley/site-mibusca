@@ -1,13 +1,30 @@
-/*@font-face {
-  font-family: Panton-LightCaps;
+@font-face {
+  font-family: Panton;
+  font-weight: normal;
+  font-style: normal;
   src: url(/fonts/Panton-LightCaps.otf);
 }
 
 @font-face {
-  font-family: Panton-LightitalicCaps;
+  font-family: Panton;
+  font-weight: normal;
   font-style: italic;
   src: url(/fonts/Panton-LightitalicCaps.otf);
-}*/
+}
+
+@font-face {
+  font-family: Panton;
+  font-weight: bold;
+  font-style: normal;
+  src: url(/fonts/Panton-BlackCaps.otf);
+}
+
+@font-face {
+  font-family: Panton;
+  font-weight: bold;
+  font-style: italic;
+  src: url(/fonts/Panton-BlackitalicCaps.otf);
+}
 
 * {
   box-sizing: border-box;
@@ -29,9 +46,14 @@ html {
   }
 }
 
+.logo {
+  max-width: 30%;
+}
+
 body {
-  font-family: Arial;
+  font-family: Panton;
   font-weight: bold;
+  font-style: italic;
   margin: 0;
   background-color: #c1c2c699;
 }
@@ -66,6 +88,7 @@ section {
   background-color: white;
   padding: 20px;
   border-radius: 20px;
+  overflow: auto;
 }
 
 figure {
