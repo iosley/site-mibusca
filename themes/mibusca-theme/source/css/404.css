@@ -1,0 +1,92 @@
+/*@font-face {
+  font-family: Panton-LightCaps;
+  src: url(/fonts/Panton-LightCaps.otf);
+}
+
+@font-face {
+  font-family: Panton-LightitalicCaps;
+  font-style: italic;
+  src: url(/fonts/Panton-LightitalicCaps.otf);
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.0rem;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  html {
+    font-size: .95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+body {
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+  background-color: #c1c2c699;
+}
+
+article {
+  text-align: center;
+}
+
+article > h1 {
+  color: #DD4923;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  max-width: 800px;
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.figures {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  max-height: 250px;
+}
+
+.cartoon-guy {
+  /*height: 350px;*/
+}
+
+.cartoon-404 {
+  width: 550px;
+}
