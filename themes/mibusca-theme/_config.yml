@@ -18,7 +18,3 @@ responsive_images:
       square:
         width: 200
         height: 200
-
-# Minifier
-## Docs: https://github.com/chenzhutian/hexo-all-minifier
-all_minifier: true

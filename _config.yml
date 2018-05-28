@@ -59,3 +59,7 @@ browsersync:
 inline_assets:
   enabled: true
   limit: 100000
+
+# Minifier
+## Docs: https://github.com/chenzhutian/hexo-all-minifier
+all_minifier: true

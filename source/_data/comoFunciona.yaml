@@ -1,17 +1,17 @@
 - title: Passo 1
   image:
-    src: images/hand.png
+    src: images/passo01.jpg
     alt: Foto item 1
   content: Preencha o nosso formulário de cadastro e aguarde o contato da nossa equipe comercial.
 
 - title: Passo 2
   image:
-    src: images/hand.png
+    src: images/passo02.jpg
     alt: Foto item 2
   content: Receba Login e senha para acessar a plataforma, que busca online os voos das cias aéreas tanto em trecho nacional como internacional.
 
 - title: Passo 3
   image:
-    src: images/hand.png
+    src: images/passo03.jpg
     alt: Foto item 3
   content: Emita suas passagens com milhas, de forma segura e garantia do embarque. Não perca tempo, aproveite para lucrar cada vez mais!
