@@ -27,6 +27,7 @@
       </header>
       <article>
         {{ page.content }}
+        <a href="/">VOLTAR À PÁGINA INICIAL</a>
       </article>
     </section>
   </main>
