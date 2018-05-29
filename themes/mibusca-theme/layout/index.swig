@@ -66,7 +66,7 @@ layout: main
 </section>
 
 <script type="text/javascript">
-  document.addEventListener('load', function() {
+  window.addEventListener('load', function() {
     $('#testimonialsCarousel').on('slide.bs.carousel', function (e) {
       /*
       CC 2.0 License Iatek LLC 2018

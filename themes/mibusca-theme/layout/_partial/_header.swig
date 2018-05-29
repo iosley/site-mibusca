@@ -8,11 +8,11 @@
         <form class="row justify-content-center no-gutters">
           <div class="col-sm form-group my-2 my-sm-0">
               <label class="sr-only">Login</label>
-              <input type="text" class="form-control rouded" placeholder="Login">
+              <input type="text" class="form-control rouded" placeholder="Login" autocomplete="username" required>
             </div>
             <div class="col-sm form-group my-2 my-sm-0">
               <label class="sr-only">Password</label>
-              <input type="password" class="form-control rouded" placeholder="Senha">
+              <input type="password" class="form-control rouded" placeholder="Senha" autocomplete="current-password" required>
             </div>
             <div class="form-group mb-0 align-self-center my-2 my-sm-0">
               <button type="submit" class="btn btn-secondary rouded">
