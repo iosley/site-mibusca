@@ -30,8 +30,8 @@
   }
 }
 
-.header-toggle {
-  cursor: pointer;
+.header-toggle, .header-toggle:link, .header-toggle:visited {
+  text-decoration: none;
 }
 
 .social-icon {
@@ -232,9 +232,9 @@ footer {
 }
 
 @include media-breakpoint-up(md) {
-  .header-toggle {
-    pointer-events: none;
-  }
+  // .header-toggle {
+  //   pointer-events: none;
+  // }
 }
 
 @include media-breakpoint-down(sm) {
