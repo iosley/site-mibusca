@@ -15,8 +15,7 @@
         <div class="col-12 text-center text-lg-left">
           <p>
             ATENDIMENTO: 0300 313 5568 <br>
-            MIBUSCA VIAGENS E TURISMO <br>
-            CNJP: 99.999.999/0001-99
+            MIBUSCA VIAGENS E TURISMO
           </p>
         </div>
         <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-start">
