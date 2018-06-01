@@ -1,43 +1,21 @@
-- name: José Almeida
-  city: Imperatriz
+- name: Andreia
+  city: Proprietária
   image:
-    src: images/man.png
+    src: images/mb_viagens.jpg
     alt: Foto José Almeida
-  content: A Mibusca é uma empresa que passa segurança,
-    pois além de ter um serviço muito útil, possui
-    profissionais excelentes e atendimento eficiente.
-    Tenho certeza que a partir de agora vou fazer sempre
-    a melhor escolha nas viagens que preciso fazer.
+  content: Os valores praticados pela Mibusca são ótimos, bastante competitivos.
+    A equipe de atendimento é bastante ágil e atenciosa. A Empresa presta um
+    excelente serviço de pré e pós venda, acredito que uma dos maiores
+    diferenciais da empresa seja a qualidade no atendimento alinhada ao preço.
+    Fui bem atendida quando precisei emitir passagens nos finais de semana.
 
-- name: Maria de Sousa
-  city: Imperatriz
+- name: Luanna Bastos
+  city: Diretora
   image:
-    src: images/woman.png
-    alt: Foto Maria de Sousa
-  content: A Mibusca é uma empresa que passa segurança,
-    pois além de ter um serviço muito útil, possui
-    profissionais excelentes e atendimento eficiente.
-    Tenho certeza que a partir de agora vou fazer sempre
-    a melhor escolha nas viagens que preciso fazer.
-
-- name: José Almeida
-  city: Imperatriz
-  image:
-    src: images/man.png
+    src: images/logo_kennedy.jpg
     alt: Foto José Almeida
-  content: A Mibusca é uma empresa que passa segurança,
-    pois além de ter um serviço muito útil, possui
-    profissionais excelentes e atendimento eficiente.
-    Tenho certeza que a partir de agora vou fazer sempre
-    a melhor escolha nas viagens que preciso fazer.
-
-- name: Maria de Sousa
-  city: Imperatriz
-  image:
-    src: images/woman.png
-    alt: Foto Maria de Sousa
-  content: A Mibusca é uma empresa que passa segurança,
-    pois além de ter um serviço muito útil, possui
-    profissionais excelentes e atendimento eficiente.
-    Tenho certeza que a partir de agora vou fazer sempre
-    a melhor escolha nas viagens que preciso fazer.
+  content: Há alguns meses mudamos nosso fornecedor de milhas, para o Mibusca,
+    e um dos grandes diferencial encontrado com relação ao nosso fornecedor
+    anterior foi o atendimento, a presteza em nos atender. Além disso o preço é
+    sempre um dos mais baratos, ou seja, o custo benefício de se comprar com a
+    Mibusca é muito maior do que as que havíamos trabalhado até o momento.
